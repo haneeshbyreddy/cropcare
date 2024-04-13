@@ -7,7 +7,7 @@ import numpy as np
 import torch
 import pandas as pd
 
-os.chdir('/home/ubuntu/Plant-Disease-Detection/Flask/')
+os.chdir('/home/haneesh-server/project/cropcare')
 
 disease_info = pd.read_csv('disease_info.csv' , encoding='cp1252')
 supplement_info = pd.read_csv('supplement_info.csv',encoding='cp1252')
